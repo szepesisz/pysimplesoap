@@ -4,7 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysimplesoap"
-version = "1.16.1"
+dynamic = ["version"]
 
 [tool.setuptools]
 py-modules = ['pysimplesoap']
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
