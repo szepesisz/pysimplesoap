@@ -3,8 +3,8 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rub-pysimplesoap"
-version = "1.16"
+name = "pysimplesoap"
+version = "1.16.1"
 
 [tool.setuptools]
 py-modules = ['pysimplesoap']
